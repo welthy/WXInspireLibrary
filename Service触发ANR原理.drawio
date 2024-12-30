@@ -1,9 +1,268 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="PPGwi02qPIjVO-zp_RCy">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="120" width="410" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;dashed=1;dashPattern=8 8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="280" width="390" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="620" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="800" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="275" width="145" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="570" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-9" target="5fQAOcb1Yjmjz0IZmOn9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-8" value="startService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-7">
+          <mxGeometry x="-0.1778" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-9" value="C&lt;span style=&quot;background-color: initial;&quot;&gt;lient&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#1c4ee3;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-12" target="5fQAOcb1Yjmjz0IZmOn9-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="200" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="200" />
+              <mxPoint x="330" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-11" value="&lt;b&gt;Binder&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-10">
+          <mxGeometry x="0.0167" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-12" value="中间代理给系统服务执行startService操作" style="rounded=1;whiteSpace=wrap;html=1;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-14" target="5fQAOcb1Yjmjz0IZmOn9-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="350" />
+              <mxPoint x="520" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-14" value="startService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-15" value="&lt;b&gt;APP&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-16" value="&lt;b&gt;AMS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-18" target="5fQAOcb1Yjmjz0IZmOn9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-18" value="封装成ServiceRecord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-21" target="5fQAOcb1Yjmjz0IZmOn9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-20" value="startServiceLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-19">
+          <mxGeometry x="0.04" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-21" value="各种权限校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-24" target="5fQAOcb1Yjmjz0IZmOn9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-23" value="bringUpServiceLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-22">
+          <mxGeometry x="-0.16" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-24" value="若非前台应用且有正启动的service，则当前service延迟启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-65" target="5fQAOcb1Yjmjz0IZmOn9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-26" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;目标进程已启动，realStartServiceLocked&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-25">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-31" target="5fQAOcb1Yjmjz0IZmOn9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-28" value="目标进程未启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-27">
+          <mxGeometry x="0.1" y="-1" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-31" target="5fQAOcb1Yjmjz0IZmOn9-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-30" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;bumpServiceExecutingLocked&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-29">
+          <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-31" value="确认拉起服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#0936ec;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-34" target="5fQAOcb1Yjmjz0IZmOn9-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="525" />
+              <mxPoint x="540" y="580" />
+              <mxPoint x="210" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-33" value="Binder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-32">
+          <mxGeometry x="0.7333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-34" value="真正执行拉起服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="505" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-35" value="&lt;b&gt;ContextImpl&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-36" value="&lt;b&gt;ActiveService&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-37" value="&lt;b&gt;system_server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#e1c409;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-40" target="5fQAOcb1Yjmjz0IZmOn9-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="480" />
+              <mxPoint x="520" y="480" />
+              <mxPoint x="520" y="600" />
+              <mxPoint x="720" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-39" value="&lt;b&gt;Socket&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-38">
+          <mxGeometry x="0.0505" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-40" value="转交ProcessList&lt;div&gt;走启动进程留存&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="415" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-42" target="5fQAOcb1Yjmjz0IZmOn9-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-42" value="zygote孵化目标APP的进程&lt;div&gt;（若是app拉起的是其他应用的service就会走这部分）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="670" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-43" value="&lt;b&gt;Zygote&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-44" value="然后是拉起目标APP进程后和AMS attach绑定，AMS再继续通过&lt;b&gt;realStartServiceLocked&lt;/b&gt;拉起服务&lt;div&gt;（中间流程就不铺开了，一般的启动APP进程流程了）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="770" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-47" target="5fQAOcb1Yjmjz0IZmOn9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-46" value="Handler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-45">
+          <mxGeometry x="0.125" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-47" value="ApplicationThread收到通知（&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;schedualCreateService&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-48" value="ActivityThread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-51" target="5fQAOcb1Yjmjz0IZmOn9-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-50" value="handleCreateService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-49">
+          <mxGeometry x="-0.08" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-51" value="主线程开始执行启动Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-53" target="5fQAOcb1Yjmjz0IZmOn9-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-53" value="1、反射获取Service对象&lt;div&gt;2、创建Context&lt;/div&gt;&lt;div&gt;3、给服务的Context添加app的resource&lt;/div&gt;&lt;div&gt;4、Service对象和APP绑定&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="420" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-54" value="回调Service.OnCreate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="540" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#1144df;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-54" target="5fQAOcb1Yjmjz0IZmOn9-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="620" />
+              <mxPoint x="430" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-56" value="告诉AMS当前服务已启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-55">
+          <mxGeometry x="-0.0045" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-58" target="5fQAOcb1Yjmjz0IZmOn9-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="525" />
+              <mxPoint x="510" y="570" />
+              <mxPoint x="840" y="570" />
+              <mxPoint x="840" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-58" value="转交AS处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-61" target="5fQAOcb1Yjmjz0IZmOn9-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-60" value="serviceExecutingDoneLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5fQAOcb1Yjmjz0IZmOn9-59">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-61" value="执行目标service启动后的操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="175" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5fQAOcb1Yjmjz0IZmOn9-63" target="5fQAOcb1Yjmjz0IZmOn9-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-63" value="目标APP的service都启动完了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="270" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-64" value="拆雷&lt;div&gt;（移除SERVICE_TIME_OUT消息）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="880" y="350" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5fQAOcb1Yjmjz0IZmOn9-65" value="埋雷" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="435" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
