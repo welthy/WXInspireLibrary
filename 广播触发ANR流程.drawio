@@ -1,9 +1,219 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="YgO7MILUmTl651jBf_cW">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pmX35TK4KahEl98EJ7JM-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-120" width="350" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-110" y="-50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-22" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="pmX35TK4KahEl98EJ7JM-48">
+          <mxGeometry width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-23" value="ContextImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pmX35TK4KahEl98EJ7JM-48">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-4" value="收到广播并转交AMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pmX35TK4KahEl98EJ7JM-48">
+          <mxGeometry x="15" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-44" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="75" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-120" width="680" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-27" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="725" y="-100" width="260" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-10" width="250" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-1" target="pmX35TK4KahEl98EJ7JM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-6" value="sendOrderedBroadcast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-5">
+          <mxGeometry x="-0.22" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-1" value="业务方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#072de9, #ededed);" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-4" target="pmX35TK4KahEl98EJ7JM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="10" />
+              <mxPoint x="330" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-10" value="&lt;div style=&quot;background-color:#c7edcc;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;Source Code Pro&#39;,monospace;font-size:12.0pt;&quot;&gt;broadcastIntentWithFeature&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-9">
+          <mxGeometry x="-0.0291" y="2" relative="1" as="geometry">
+            <mxPoint x="-80" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-8" target="pmX35TK4KahEl98EJ7JM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-13" value="broadcastIntentLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-12">
+          <mxGeometry x="-0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-8" value="接收广播请求" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-11" target="pmX35TK4KahEl98EJ7JM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-11" value="各种权限校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="160" width="115.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-14" target="pmX35TK4KahEl98EJ7JM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-26" value="schedualBroadcastLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-25">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-14" value="获取BroadcastQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="240" width="115.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-17" value="ActivityManagerService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-19" value="&lt;b&gt;system_server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-21" value="&lt;b&gt;客户端进程&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-120" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-24" target="pmX35TK4KahEl98EJ7JM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-24" value="收到大管家的分发广播消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-28" value="BroadcastQueue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="-100" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-29" target="pmX35TK4KahEl98EJ7JM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-29" value="先分发无序广播" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="30" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-31" target="pmX35TK4KahEl98EJ7JM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-31" value="处理有序广播" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-33" target="pmX35TK4KahEl98EJ7JM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-37" value="此次广播若未设置超时消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-36">
+          <mxGeometry x="0.05" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-33" value="取消上一次广播的超时消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="780" y="150" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-35" target="pmX35TK4KahEl98EJ7JM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-40" value="delieverToRegisterReceiverLocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-39">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-35" value="设置此次广播的超时消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#1f11ee, #ededed);" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-38" target="pmX35TK4KahEl98EJ7JM-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="380" />
+              <mxPoint x="110" y="380" />
+              <mxPoint x="110" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-43" value="schedualRegisterReceiver" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-42">
+          <mxGeometry x="0.3155" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-38" value="分发广播" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-41" target="pmX35TK4KahEl98EJ7JM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-41" value="收到系统进程的广播分发通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="110" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-45" value="ApplicationThread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="75" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-46" value="通过主线程Handler将广播消息发送到主线程队列，等待执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-49" target="pmX35TK4KahEl98EJ7JM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-54" value="出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-53">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-49" value="主线程&lt;div&gt;队列&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-277.5" y="170" width="60" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.983;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-46" target="pmX35TK4KahEl98EJ7JM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-51" value="入队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmX35TK4KahEl98EJ7JM-50">
+          <mxGeometry x="-0.0395" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-52" target="pmX35TK4KahEl98EJ7JM-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-52" value="处理广播消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="360" width="110" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-55" target="pmX35TK4KahEl98EJ7JM-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-55" value="1、获取类加载器&lt;div&gt;2、反射获取receiver实例&lt;/div&gt;&lt;div&gt;3、回调receiver.onReceive方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-172.5" y="430" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-57" target="pmX35TK4KahEl98EJ7JM-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-57" value="广播处理完成/或者出现崩溃" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="520" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pmX35TK4KahEl98EJ7JM-59" target="pmX35TK4KahEl98EJ7JM-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-59" value="转交广播完成通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmX35TK4KahEl98EJ7JM-61" value="取消超时消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="780" y="398" width="150" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
