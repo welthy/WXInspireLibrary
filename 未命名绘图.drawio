@@ -1,9 +1,252 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="c3CoOD4iUBBecdgyRIGK">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zKehNpbiB037E7ThTKie-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="379.13" width="600" height="470.87" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-2" value="AnrHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="300" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-3" value="+ mAnrRecords: ArrayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zKehNpbiB037E7ThTKie-2">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zKehNpbiB037E7ThTKie-2">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-5" value="+ anrNotRespondng(ProcessRecord, String): void&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ AnrConsumThread: Thread&lt;/div&gt;&lt;div&gt;+ AnrRecord: class&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zKehNpbiB037E7ThTKie-2">
+          <mxGeometry y="60" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-6" value="将ANR的进程封装成AnrRecord" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="314" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-3" target="zKehNpbiB037E7ThTKie-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-10" target="zKehNpbiB037E7ThTKie-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-9" value="r.appNotResponding" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-8">
+          <mxGeometry x="-0.0364" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-10" value="开启子线程循环处理mAnrRecords" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=13;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-5" target="zKehNpbiB037E7ThTKie-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-12" value="" style="endArrow=true;dashed=1;html=1;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-10" target="zKehNpbiB037E7ThTKie-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="520" as="sourcePoint" />
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-15" target="zKehNpbiB037E7ThTKie-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-14" value="appNotResponding" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-13">
+          <mxGeometry x="-0.1501" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-15" value="由AnrRecord自身处理ANR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-16" value="ProcessErrorStateRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-17" value="+ mService: AMS&lt;div&gt;&lt;div&gt;+ mApp: ProcessRecord (ANR进程)&lt;br&gt;&lt;div&gt;+ mAnrAnnotation: String(ANR原因)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zKehNpbiB037E7ThTKie-16">
+          <mxGeometry y="26" width="300" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zKehNpbiB037E7ThTKie-16">
+          <mxGeometry y="80" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-19" value="+ anrNotResponding(..., onlyDumpSelf): void&lt;div&gt;+ isInterestingForBackgroundTraces(): boolean&lt;/div&gt;&lt;div&gt;+ isSilentAnr: boolean&lt;/div&gt;&lt;div&gt;+ dump(PrintWriter, prefix, nowUptime): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zKehNpbiB037E7ThTKie-16">
+          <mxGeometry y="88" width="300" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-22" target="zKehNpbiB037E7ThTKie-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-21" value="EventsLog.write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-20">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-22" value="过滤各种无需记录ANR的特殊情况&lt;div&gt;（关机、重复ANR、ANR进程崩溃，已被杀）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="490" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.513;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-19" target="zKehNpbiB037E7ThTKie-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="461" as="sourcePoint" />
+            <mxPoint x="660" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-24" value="记录发生ANR进程的基本信息&lt;div&gt;（userId、pid、processName、AppInfo.flags、annotation）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="585" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-27" target="zKehNpbiB037E7ThTKie-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="705" />
+              <mxPoint x="1080" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-26" value="&lt;b&gt;收集ANR的Log信息&lt;/b&gt;&lt;div&gt;（我们在anr日志的&lt;/div&gt;&lt;div&gt;ANR info中看到的信息）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;fontColor=#000099;" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-25">
+          <mxGeometry x="-0.1291" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-27" value="firstPids" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="845" y="680" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-24" target="zKehNpbiB037E7ThTKie-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-29" value="发生ANR进程加入队列首位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-28">
+          <mxGeometry x="-0.07" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-30" value="当前进程是否有父进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="687.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-30" target="zKehNpbiB037E7ThTKie-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-32" value="有，入队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-31">
+          <mxGeometry x="0.0447" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-33" value="发生ANR的进程是不是system_server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="760" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-33" target="zKehNpbiB037E7ThTKie-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-35" value="不是，system_server入队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-34">
+          <mxGeometry x="-0.3361" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-36" value="是否有其他关联进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-36" target="zKehNpbiB037E7ThTKie-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-38" value="有，入队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-37">
+          <mxGeometry x="-0.4861" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-40" target="zKehNpbiB037E7ThTKie-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-40" value="发生ANR进程的基本信息&lt;div&gt;（processName、pid、reason、Forzen）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="355.62" width="200" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-43" target="zKehNpbiB037E7ThTKie-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-42" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;dumpStackTraces&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-41">
+          <mxGeometry x="0.0065" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-43" value="当前内存压力信息" style="rounded=1;whiteSpace=wrap;html=1;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="430" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-44" value="当前CPU使用率相关信息" style="rounded=1;whiteSpace=wrap;html=1;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="500" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-45" value="AMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460.004705882353" y="379.1275471698113" width="49.411764705882334" height="28.695849056603766" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-47" target="zKehNpbiB037E7ThTKie-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-47" value="初始化CPU检测器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="430.52" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-49" target="zKehNpbiB037E7ThTKie-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-49" value="延迟200ms更新检测结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="490" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-51" target="zKehNpbiB037E7ThTKie-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-51" value="生成data/anr/anr_xxx的&lt;div&gt;文件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="550" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-53" target="zKehNpbiB037E7ThTKie-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-53" value="文件记录critical关键事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="610" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-55" target="zKehNpbiB037E7ThTKie-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-55" value="记录发生ANR进程的java堆栈（native方式）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="670" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-57" target="zKehNpbiB037E7ThTKie-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-57" value="有native进程的话，&lt;div&gt;记录其堆栈&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="730" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-59" target="zKehNpbiB037E7ThTKie-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-59" value="有其他进程的话，&lt;div&gt;记录其java堆栈&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1476.47" y="790.52" width="143.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-64" target="zKehNpbiB037E7ThTKie-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-61" value="生成traceFile失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-60">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-64" target="zKehNpbiB037E7ThTKie-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-63" value="生成traceFile成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zKehNpbiB037E7ThTKie-62">
+          <mxGeometry x="0.003" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-64" value="在anr文件中记录cpu信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="430" width="170" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-65" value="如果没有生成anr文件的话，则发生SIGNAL_QUIT信号给ANR进程" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="510" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-67" target="zKehNpbiB037E7ThTKie-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-67" value="在名为&lt;b&gt;AppExitInfo:killHandler&lt;/b&gt;的后台线程拷贝并压缩anr日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="510" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKehNpbiB037E7ThTKie-69" target="zKehNpbiB037E7ThTKie-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-69" value="DropBox中记录ANR信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="610" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zKehNpbiB037E7ThTKie-70" value="显示ANR弹框" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="689" width="120" height="51" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
