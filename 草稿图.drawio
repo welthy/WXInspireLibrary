@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="220" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="990" height="60" as="geometry" />
+          <mxGeometry x="40" y="80" width="990" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="40" y="330" width="990" height="70" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-1" value="应用启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="130" width="120" height="40" as="geometry" />
+          <mxGeometry x="120" y="110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-2" value="注册Signal_Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="345" width="120" height="40" as="geometry" />
@@ -26,10 +26,10 @@
           <mxGeometry x="40" y="330" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-7" value="App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="60" height="30" as="geometry" />
+          <mxGeometry x="40" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-8" value="发生ANR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="270" y="130" width="70" height="40" as="geometry" />
+          <mxGeometry x="270" y="110" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-10" value="system_server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="90" height="30" as="geometry" />
@@ -42,7 +42,7 @@
             <mxPoint x="440" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sG7W7haIXL1fbGflKKUQ-12" value="接收dump流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sG7W7haIXL1fbGflKKUQ-12" value="执行dump， 发送SIG_QUIT信号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="345" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-11" target="sG7W7haIXL1fbGflKKUQ-12">
@@ -53,8 +53,8 @@
         <mxCell id="sG7W7haIXL1fbGflKKUQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-14" target="sG7W7haIXL1fbGflKKUQ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sG7W7haIXL1fbGflKKUQ-14" value="接收SIG_QUIT信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="130" width="120" height="40" as="geometry" />
+        <mxCell id="sG7W7haIXL1fbGflKKUQ-14" value="接收SIG_QUIT信号.&lt;div&gt;(&lt;b&gt;同时，立刻向当前进程的Signal_Catcher发送SIG_QUIT&lt;/b&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-16" target="sG7W7haIXL1fbGflKKUQ-18">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-16" value="ProcessStateInfo有NOT_RESPONDING?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="130" width="140" height="40" as="geometry" />
+          <mxGeometry x="530" y="110" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-18" target="sG7W7haIXL1fbGflKKUQ-20">
           <mxGeometry relative="1" as="geometry" />
@@ -90,7 +90,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-18" value="20s内间隔500ms轮询&lt;div&gt;判断主线程是否阻塞&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="130" width="160" height="40" as="geometry" />
+          <mxGeometry x="700" y="110" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-20" target="sG7W7haIXL1fbGflKKUQ-26">
           <mxGeometry relative="1" as="geometry">
@@ -105,7 +105,7 @@
           <mxGeometry x="720" y="345" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-26" value="本地也记录一份anr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="130" width="120" height="40" as="geometry" />
+          <mxGeometry x="880" y="110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sG7W7haIXL1fbGflKKUQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sG7W7haIXL1fbGflKKUQ-8" target="sG7W7haIXL1fbGflKKUQ-11">
           <mxGeometry relative="1" as="geometry" />
