@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uptPnW_bPuyGfDzCPwBa-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="470" y="40" width="1190" height="1625" as="geometry" />
+          <mxGeometry x="470" y="40" width="1190" height="1720" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-110" y="45" width="480" height="605" as="geometry" />
@@ -145,11 +145,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uptPnW_bPuyGfDzCPwBa-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-53" target="uptPnW_bPuyGfDzCPwBa-111">
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-53" target="uptPnW_bPuyGfDzCPwBa-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uptPnW_bPuyGfDzCPwBa-114" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uptPnW_bPuyGfDzCPwBa-112">
-          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-138" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uptPnW_bPuyGfDzCPwBa-136">
+          <mxGeometry x="-0.1714" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -184,13 +184,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-60" value="业务对应的Handler.handle(action, query)&lt;div&gt;处理具体的业务逻辑&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1050" width="180" height="60" as="geometry" />
+          <mxGeometry x="700" y="1203" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-61" target="uptPnW_bPuyGfDzCPwBa-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-61" value="Query.finish中处理跳转成功上报" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1170" width="180" height="60" as="geometry" />
+          <mxGeometry x="700" y="1323" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-63" target="uptPnW_bPuyGfDzCPwBa-50">
           <mxGeometry relative="1" as="geometry">
@@ -206,13 +206,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-63" value="参数中是否包含&lt;div&gt;投流标记&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1270" width="180" height="80" as="geometry" />
+          <mxGeometry x="700" y="1423" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-67" target="uptPnW_bPuyGfDzCPwBa-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-67" value="上报服务端数据&lt;div&gt;（具体上传格式后期确定后再补充，暂时先丢完整Link）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1510" width="180" height="60" as="geometry" />
+          <mxGeometry x="700" y="1663" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-78" target="uptPnW_bPuyGfDzCPwBa-60">
           <mxGeometry relative="1" as="geometry" />
@@ -231,7 +231,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-78" value="Query的版本是否兼容&lt;div&gt;query.isCompatible() == true&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="930" width="180" height="80" as="geometry" />
+          <mxGeometry x="700" y="1083" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-82" target="uptPnW_bPuyGfDzCPwBa-50">
           <mxGeometry relative="1" as="geometry">
@@ -244,13 +244,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-82" value="上报版本不兼容埋点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="940" width="150" height="60" as="geometry" />
+          <mxGeometry x="930" y="1093" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-88" target="uptPnW_bPuyGfDzCPwBa-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-88" value="执行默认处理器&lt;div&gt;（默认跳首页）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1170" width="150" height="60" as="geometry" />
+          <mxGeometry x="930" y="1323" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-94" target="uptPnW_bPuyGfDzCPwBa-50">
           <mxGeometry relative="1" as="geometry" />
@@ -261,7 +261,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-94" value="上报业务执行失败埋点&lt;div&gt;（此时就是业务内部跳转失败）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="1170" width="130" height="60" as="geometry" />
+          <mxGeometry x="1140" y="1323" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-99" target="uptPnW_bPuyGfDzCPwBa-44">
           <mxGeometry relative="1" as="geometry" />
@@ -310,7 +310,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-111" value="_ver参数格式是否异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="770" width="180" height="80" as="geometry" />
+          <mxGeometry x="700" y="923" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-116" target="uptPnW_bPuyGfDzCPwBa-50">
           <mxGeometry relative="1" as="geometry" />
@@ -321,7 +321,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-116" value="上报错误信息埋点，&lt;div&gt;_ver格式异常&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="780" width="150" height="60" as="geometry" />
+          <mxGeometry x="930" y="933" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-123" target="uptPnW_bPuyGfDzCPwBa-67">
           <mxGeometry relative="1" as="geometry" />
@@ -340,19 +340,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-123" value="_call_type是否是alipay" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1390" width="180" height="80" as="geometry" />
+          <mxGeometry x="700" y="1543" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-126" target="uptPnW_bPuyGfDzCPwBa-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-126" value="延用Android已有逻辑上报" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1400" width="150" height="60" as="geometry" />
+          <mxGeometry x="930" y="1553" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-131" target="uptPnW_bPuyGfDzCPwBa-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uptPnW_bPuyGfDzCPwBa-131" value="成功或失败后，&lt;div&gt;上报结果埋点&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="1400" width="130" height="60" as="geometry" />
+          <mxGeometry x="1140" y="1553" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-135" target="uptPnW_bPuyGfDzCPwBa-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-139" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uptPnW_bPuyGfDzCPwBa-137">
+          <mxGeometry x="0.0159" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-135" target="uptPnW_bPuyGfDzCPwBa-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-142" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uptPnW_bPuyGfDzCPwBa-141">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-135" value="检查必传参数&lt;div&gt;_business_id是否有值&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="780" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uptPnW_bPuyGfDzCPwBa-140" target="uptPnW_bPuyGfDzCPwBa-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-144" value="错误信息：business_id is null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uptPnW_bPuyGfDzCPwBa-143">
+          <mxGeometry x="-0.6366" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uptPnW_bPuyGfDzCPwBa-140" value="上报转发失败埋点，包含_business_id为空&lt;div&gt;的错误信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="790" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
