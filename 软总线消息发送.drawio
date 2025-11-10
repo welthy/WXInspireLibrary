@@ -282,7 +282,7 @@
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-9" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1970" y="800" as="targetPoint" />
+            <mxPoint x="1970" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-11" value="sendMsg" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
@@ -296,7 +296,7 @@
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-12" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2120" y="840" as="targetPoint" />
+            <mxPoint x="2120" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-14" value="queryAdaptiveControlForSender" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
@@ -321,7 +321,7 @@
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-17" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2275" y="920" as="targetPoint" />
+            <mxPoint x="2275" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-19" value="getDeviceAbility" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
@@ -333,16 +333,92 @@
         <mxCell id="gk0TIjvihlVjDaytPmXN-20" value="更新设备信息" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2160" y="800" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gk0TIjvihlVjDaytPmXN-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="2265" y="820" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gk0TIjvihlVjDaytPmXN-22" value="realSendMessage" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-21" parent="1">
+        <mxCell id="gk0TIjvihlVjDaytPmXN-23" value="onCallback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2270" y="800" as="sourcePoint" />
+            <mxPoint x="2270" y="840" as="sourcePoint" />
+            <mxPoint x="1970" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1965" y="880" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-25" value="realSendFileMessage" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-24" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="860" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="2300" y="830" />
+              <mxPoint x="2000" y="890" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-26" value="AdaptiveControl" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-26" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2440" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-28" value="sendFileMessage" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1970" y="940" as="sourcePoint" />
+            <mxPoint x="2440" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-29" value="AdaptiveSender" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-29" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2580" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-31" value="sendAdaptPacket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2440" y="960" as="sourcePoint" />
+            <mxPoint x="2580" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-32" value="TransferControl" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2730" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-34" value="sendTransferPacket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2580" y="970" as="sourcePoint" />
+            <mxPoint x="2730" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-35" value="TansferSender" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2880" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-37" value="sendTransferPacket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2730" y="980" as="sourcePoint" />
+            <mxPoint x="2880" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1000" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-39" value="innerSendTransferPacket" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2875" y="980" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2905" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-40" value="数据包交给Socket通道" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="1000" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
