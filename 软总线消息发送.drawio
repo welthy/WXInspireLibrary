@@ -1,0 +1,246 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="第 1 页" id="HjN8ZpU9L5EWmLxK78YI">
+    <mxGraphModel dx="2381" dy="1992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uR-f4iG0_p4weexPASM8-1" value="TransferRecordView" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-3" value="TransferHelperManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="145" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-8" value="insertData2DB" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-9" value="onCallbackData" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="sourcePoint" />
+            <mxPoint x="-40" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-12" value="KDSCDeviceManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-14" value="sendOfflineMsg" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-15" value="sendOfflineMsg" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-40" y="210" as="sourcePoint" />
+            <mxPoint x="140" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-16" value="sendMsg" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-40" y="100" as="sourcePoint" />
+            <mxPoint x="145" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-17" value="KDeviceSoftCenterManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-19" value="sendToUser" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-20" value="1、构造ActionMessage&lt;div&gt;2、获取wps_sid&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-21" value="DeviceSoftCenterManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-21" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-23" value="sendToUser" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="280" as="sourcePoint" />
+            <mxPoint x="780" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="775" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-26" value="tryInit" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-25" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="810" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-27" value="主进程中注册各类跨端业务监听" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="775" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-29" value="checkDscOnline" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-28" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="805" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-30" value="绑定DSC&lt;div&gt;软总线服务&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-31" value="DSCManagerHelper" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-31" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-33" value="send" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="790" y="420" as="sourcePoint" />
+            <mxPoint x="960" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="955" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-35" value="sendImpl" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-34" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="990" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-36" value="DSCAidlHelper" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-36" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-38" value="send" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="970" y="480" as="sourcePoint" />
+            <mxPoint x="1140" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-39" value="AIDL调用" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-40" value="MsgChannelManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-40" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-42" value="send" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1140" y="500" as="sourcePoint" />
+            <mxPoint x="1300" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-43" value="MultiSendMsgHelper" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-43" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-45" value="SortSendMsgHelper" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uR-f4iG0_p4weexPASM8-45" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-47" value="多通道并发" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="-10" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-48" value="单通道顺发" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-6" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-49" value="构造" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1300" y="520" as="sourcePoint" />
+            <mxPoint x="1450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-50" value="构造" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1300" y="550" as="sourcePoint" />
+            <mxPoint x="1610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-51" value="ExecuteService.execute" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1445" y="600" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-53" value="sendFarChannel" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-52" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1480" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1445" y="660" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uR-f4iG0_p4weexPASM8-55" value="sendNearChannel" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uR-f4iG0_p4weexPASM8-54" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1480" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
