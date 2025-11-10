@@ -194,7 +194,7 @@
         </mxCell>
         <mxCell id="uR-f4iG0_p4weexPASM8-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="uR-f4iG0_p4weexPASM8-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1610" y="680" as="targetPoint" />
+            <mxPoint x="1610" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uR-f4iG0_p4weexPASM8-47" value="多通道并发" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
@@ -242,6 +242,107 @@
         </mxCell>
         <mxCell id="gk0TIjvihlVjDaytPmXN-1" value="以近场通信为例" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="27" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1605" y="570" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-3" value="责任链模式顺序调用" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-4" value="DSCTcpChannel" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-6" value="近场通道（Socket）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="-6" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-7" value="获取所有设备&lt;div&gt;DeviceAbilityManager.getAllDevice&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1460" y="700" as="sourcePoint" />
+            <mxPoint x="1660" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-8" value="send" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1660" y="700" as="sourcePoint" />
+            <mxPoint x="1820" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-9" value="AdaptiveClient" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-11" value="sendMsg" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1820" y="720" as="sourcePoint" />
+            <mxPoint x="1970" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-12" value="AdaptControlMgr" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2120" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-14" value="queryAdaptiveControlForSender" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1970" y="740" as="sourcePoint" />
+            <mxPoint x="2120" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2115" y="760" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-16" value="sendMessage" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2120" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2150" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-17" value="DevicesAbilityManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="gk0TIjvihlVjDaytPmXN-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2275" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-19" value="getDeviceAbility" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2120" y="800" as="sourcePoint" />
+            <mxPoint x="2280" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-20" value="更新设备信息" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2265" y="820" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gk0TIjvihlVjDaytPmXN-22" value="realSendMessage" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="gk0TIjvihlVjDaytPmXN-21" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2270" y="800" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2300" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
